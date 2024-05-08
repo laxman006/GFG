@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    table{
+     width: 100%;
+     border-collapse: collapse;
+      }
+      th{
+        color: red;
+        font-size: large;
+        font: weight 200px;
+        border: 1px solid black;
+        padding: 5px;
+
+      }
+      td{
+
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        text-align: center;
+        border: 1px solid rgb(39, 14, 228);
+        padding: 3px;
+      }
+      thead{
+        background-color: rgb(242, 255, 2);
+      }
+       tbody{
+
+          background-color: chartreuse;
+       }
+
+      table{
+        background-color: rgb(255, 255, 255);
+      }
+
+.head{
+    background-color: rgb(140, 251, 251);
+}
+#row{
+    background-color:pink;
+}
+
+
+</style>
+
+
+
+<body>
+    <table>
+        <caption>my table</caption>
+        <thead>
+            <tr>
+                <th> Age</th>
+                <th>first name</th>
+                <th>last name</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 22</td>
+                <td>sai</td>
+                <td>laxman</td>
+            </tr>
+            <tr>
+                <td> 21</td>
+                <td>pandu</td>
+                <td>lucky</td>
+            </tr>
+        </tbody>
+        
+            <tr class="head">
+                <td id="row"> 21</td>
+                <td>pandu</td>
+                <td>lucky</td>
+             
+ <!-- </tr> -->
+        <tfoot>
+            <tr>
+               <td colspan="3">this is a footter</td>
+            </tr>
+       </tfoot>
+        
+    </table>
+
+</body>
+</html>

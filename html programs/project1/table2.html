@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+     <style>
+        table{
+            width: 100%; 
+            border: 5px solid black;
+            border-collapse: collapse;
+        }   
+
+           td,th{
+            text-align: center;
+            border: 2px solid black;
+            
+           }
+         table#alter thead{
+            background-color: cyan;
+         }
+         table#alter tbody tr:nth-child(even){
+            background-color: mediumorchid;
+         }
+
+
+
+     </style>
+
+<body>
+    <table id="alter" >
+        <caption>my table</caption>
+        <thead>
+            <tr>
+                <th> Age</th>
+                <th>first name</th>
+                <th>last name</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 22</td>
+                <td>sai</td>
+                <td>laxman</td>
+            </tr>
+            <tr>
+                <td> 21</td>
+                <td>pandu</td>
+                <td>lucky</td>
+            </tr>
+        </tbody>
+        
+            <tr>
+                <td > 21</td>
+                <td>pandu</td>
+                <td>lucky</td>
+                
+             </tr>
+        
+        <tfoot>
+            <tr>
+               <td colspan="3">this is a footter</td>
+            </tr>
+       </tfoot>
+    </table>
+
+</body>
+</html>

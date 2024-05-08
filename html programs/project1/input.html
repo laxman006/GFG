@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input{ padding: 5px;
+        background-color: rgb(206, 228, 228);
+        
+        
+    }
+    div{
+        text-align: center;
+       
+    }
+</style>
+<body> <div>
+    <form>
+        <label for="fname">First Name</label>
+         <input type="text" name="fname">
+                <br><br>
+       <label for="lname">Last Name</label>
+       <!-- &nbsp; -->
+        <input type="text" name="lname">
+           <br><br>
+       <label for="password">Password</label>
+       <input type="password" name="password" >
+       <br><br>
+           <input type="submit" value="submit">
+           <input type="reset" value="reset" >
+           <br>
+
+
+          <p>what is your gender</p>
+          <input type="radio" name="gender" value="male">
+          <label>male</label>
+          <input type="radio" name="gender" value="female">
+          <label>female</label>
+
+
+
+          <p> what is your qualification</p>
+          <input type="checkbox" name="qualification1" value="SSC"  >
+          <label>SSC </label> <br>
+          <input type="checkbox" name="qualification2" value="intermediate" >
+          <label>Intermediate </label> <br>
+          <input type="checkbox" name="qualification3" value="Btech">
+          <label>Btech</label><br> <br>
+
+           <input type="button" value="click me" onclick="alert(`you just clicked`)">
+           <br>
+           <br>
+
+           <input type="color" name="bgcolor" value="#ffffff"> 
+           <br>
+           <br>
+
+           <input type="date" name="dob" max="2024-04-13" min="2002-12-06">
+           <br>
+           <br>
+
+           <input type="file" name="myfile" accept="image,Document,.pdf" >
+           <br>
+           <br>
+            
+            <input type="time" value="12:12:13"/>
+            <br>
+            <br>
+
+            <input type="number" value="0" max="20" min="0" step="2" />
+            <br>
+            <br>
+            <label>select your age</label>
+            <input type="range" value="0" max="100" min="18">
+            <br>
+
+    </form></div>
+</body>
+</html>
